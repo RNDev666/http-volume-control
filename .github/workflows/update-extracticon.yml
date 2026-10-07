@@ -22,7 +22,7 @@ jobs:
     
     - name: Download latest ExtractIcon.exe
       run: |
-        curl -L -o extracticon.exe https://github.com/bezalel6/ExtractIcon/releases/download/latest/extracticon.exe
+        curl -L -o extracticon.exe https://github.com/RNDev666/ExtractIcon/releases/download/latest/extracticon.exe
         chmod +x extracticon.exe
     
     - name: Check if ExtractIcon.exe changed
